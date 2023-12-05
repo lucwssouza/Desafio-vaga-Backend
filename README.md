@@ -18,7 +18,7 @@ Exemplo de Uso
 javascript
 Copy code
 const resultado = somandoDivisores(10);
-document.write("<p>O valor retornado é: " + resultado + "</p>");
+document.write("<p>O valor retornado é: " + resultado + "</p>"); 
 
 Nesse exemplo a função somandoDivisores é chamada com o número 10, e o resultado é exibido na página.
 
