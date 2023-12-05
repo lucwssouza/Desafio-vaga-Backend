@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio técnico 1</title>
+</head>
+<body>
+    <script>
+        function somandoDivisores(numeroInteiro) {
+            var somatorio = 0;
+
+            for (var inteiro = 1; inteiro < numeroInteiro; inteiro++) {
+
+                if (inteiro % 3 === 0 || inteiro % 5 === 0) {
+                    somatorio = somatorio + inteiro;
+                }
+            }
+
+            return somatorio;
+        }
+        
+        const resultado = somandoDivisores(10); //Exemplo do desafio
+        
+        document.write("<p>O valor retornado é: " + resultado + "</p>");
+    </script>
+</body>
+
+</html>
